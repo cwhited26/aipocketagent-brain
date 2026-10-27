@@ -47,7 +47,7 @@ terminal application you normally use.
 Copy the complete command below, paste it into Terminal, and press Return:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cwhited26/aipocketagency-brain/main/install-workstation.sh \
+curl -fsSL https://raw.githubusercontent.com/cwhited26/aipocketagent-brain/main/install-workstation.sh \
   | bash -s -- --profile operator --brain-root "$HOME/ai-brain"
 ```
 

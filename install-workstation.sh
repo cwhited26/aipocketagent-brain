@@ -5,7 +5,7 @@
 set -euo pipefail
 
 VERSION="0.2.0"
-REPOSITORY_URL="https://github.com/cwhited26/aipocketagency-brain.git"
+REPOSITORY_URL="https://github.com/cwhited26/aipocketagent-brain.git"
 WORKSTATION_HOME="${APA_WORKSTATION_HOME:-$HOME}"
 DEFAULT_SOURCE_DIR="$WORKSTATION_HOME/.local/share/aipocketagency/workstation-source"
 DEFAULT_CONFIG_FILE="$WORKSTATION_HOME/.config/aipocketagency/workstation.json"

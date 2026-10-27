@@ -1,4 +1,4 @@
-# aipocketagency-brain
+# aipocketagent-brain
 
 The source of truth for AI Pocket Agency members: templates, deliverables, the brain pattern, and a
 repeatable AI workstation installer.
@@ -14,7 +14,7 @@ This is the fastest path from a clean machine to one shared rule system for Code
 project repositories, and optional phone dispatch:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cwhited26/aipocketagency-brain/main/install-workstation.sh \
+curl -fsSL https://raw.githubusercontent.com/cwhited26/aipocketagent-brain/main/install-workstation.sh \
   | bash -s -- --profile operator --brain-root "$HOME/ai-brain"
 ```
 
@@ -46,7 +46,7 @@ bash tests/workstation-smoke.sh
 ## What is in here
 
 ```
-aipocketagency-brain/
+aipocketagent-brain/
 ├── README.md                    ← this file
 ├── LICENSE                      ← MIT
 ├── install-ambient.sh           ← Layer 2 install — Stop hook + pre-commit + brain CLI
@@ -89,7 +89,7 @@ aipocketagency-brain/
 You do not need to fork or clone this repo to use the system. Three ways to consume:
 
 1. **Inside the Skool classroom.** Each module links directly to the file you need. Click and you are reading the most recent version.
-2. **Direct raw URLs.** Every file is reachable at `https://raw.githubusercontent.com/cwhited26/aipocketagency-brain/main/<path>`. Use these in scripts, agent skills, and your own brain.
+2. **Direct raw URLs.** Every file is reachable at `https://raw.githubusercontent.com/cwhited26/aipocketagent-brain/main/<path>`. Use these in scripts, agent skills, and your own brain.
 3. **Copy a template into your brain.** Open the file on GitHub, click *Raw*, copy, paste into your own brain-shaped repo. Templates are written to drop in clean.
 
 ## The pattern this repo teaches
@@ -114,7 +114,7 @@ If you want to skip the classroom and get hands-on right now, here's the shortes
 ### 1. Clone or fork this repo
 
 ```bash
-git clone https://github.com/cwhited26/aipocketagency-brain.git my-brain
+git clone https://github.com/cwhited26/aipocketagent-brain.git my-brain
 cd my-brain
 ```
 
@@ -278,7 +278,7 @@ Two of these are tool-backed (cascade staleness, lane current-state). Run the sc
 ## Stable URL pattern
 
 ```
-https://raw.githubusercontent.com/cwhited26/aipocketagency-brain/main/<path>
+https://raw.githubusercontent.com/cwhited26/aipocketagent-brain/main/<path>
 ```
 
 Examples:

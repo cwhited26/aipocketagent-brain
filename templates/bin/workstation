@@ -88,7 +88,7 @@ show_guide() {
   if [[ ! -f "$local_guide" && -f "$source_dir/docs/START_HERE.md" ]]; then
     local_guide="$source_dir/docs/START_HERE.md"
   fi
-  online_guide="https://github.com/cwhited26/aipocketagency-brain/blob/main/docs/START_HERE.md"
+  online_guide="https://github.com/cwhited26/aipocketagent-brain/blob/main/docs/START_HERE.md"
 
   printf '\nAI Workstation: start here\n\n'
   say "1. Read the guide" "$local_guide"

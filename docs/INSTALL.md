@@ -8,7 +8,7 @@ plain language, what success looks like, and exactly what to send someone when y
 ## The one-command path
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cwhited26/aipocketagency-brain/main/install-workstation.sh \
+curl -fsSL https://raw.githubusercontent.com/cwhited26/aipocketagent-brain/main/install-workstation.sh \
   | bash -s -- --profile operator --brain-root "$HOME/ai-brain"
 ```
 
